@@ -1,6 +1,11 @@
 {
-  "name": "Example Addon",
+  "name": "Roman Numerals to Decimal",
   "uuid": "%uuid%",
-  "mainClass": "com.example.addon.ExampleAddon",
-  "transformerClass": "com.example.addon.ExampleAddonTransformer"
+  "mainClass": "me.acablade.addon.RomanToDecimalAddon",
+  "author": "Acablade",
+  "category": 1,
+  "version": 1,
+  "description": "turns roman numerals in enchantment levels to decimal numbers",
+  "icon": "https://i.imgur.com/RoOVVBW.png",
+  "transformerClass": "me.acablade.addon.RomanToDecimalAddonTransformer"
 }

@@ -1,13 +1,14 @@
-package com.example.addon;
+package me.acablade.addon;
 
 import java.util.List;
+
 import net.labymod.api.LabyModAddon;
 import net.labymod.settings.elements.BooleanElement;
 import net.labymod.settings.elements.ControlElement.IconData;
 import net.labymod.settings.elements.SettingsElement;
 import net.labymod.utils.Material;
 
-public class ExampleAddon extends LabyModAddon {
+public class RomanToDecimalAddon extends LabyModAddon {
 
   @Override
   public void onEnable() {
