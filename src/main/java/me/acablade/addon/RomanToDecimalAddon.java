@@ -3,10 +3,7 @@ package me.acablade.addon;
 import java.util.List;
 
 import net.labymod.api.LabyModAddon;
-import net.labymod.settings.elements.BooleanElement;
-import net.labymod.settings.elements.ControlElement.IconData;
 import net.labymod.settings.elements.SettingsElement;
-import net.labymod.utils.Material;
 
 public class RomanToDecimalAddon extends LabyModAddon {
 
@@ -20,7 +17,8 @@ public class RomanToDecimalAddon extends LabyModAddon {
   }
 
   @Override
-  protected void fillSettings(List<SettingsElement> list) {
-    list.add(new BooleanElement("test", new IconData(Material.ACACIA_FENCE)));
+  protected void fillSettings(List<SettingsElement> arg0) {
+    // TODO Auto-generated method stub
+    
   }
 }
